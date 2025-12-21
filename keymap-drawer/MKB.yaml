@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - J
-  - {t: K, h: Scr}
+  - K
   - L
   - SEMI
   - SQT
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
