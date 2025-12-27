@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - J
-  - {t: K, h: Scr}
+  - {t: K, h: Fnc}
   - L
   - MINUS
   - ENTER
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - F6
   - F7
-  - F8
+  - {t: F8, type: held}
   - F9
   - F10
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
