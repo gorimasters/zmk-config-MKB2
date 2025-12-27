@@ -21,6 +21,15 @@
 };
 
 / {
+    behaviors {
+        scroll_transform: behavior_sensor_transform {
+            compatible = "zmk,behavior-sensor-transform";
+            label = "SCROLL_TRANSFORM";
+            transform = <REL_Y REL_WHEEL>;     // 縦スクロール
+            transform = <REL_X REL_HWHEEL>;    // 横スクロール
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -95,7 +104,9 @@
                              &kp A                                              &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = 
+                <&scroll_transform>,
+　　　　　　　　　<&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         bt_layer {
