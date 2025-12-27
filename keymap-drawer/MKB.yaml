@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MINUS
+  - SEMI
   - TAB
   - A
   - S
@@ -23,7 +23,7 @@ layers:
   - J
   - {t: K, h: Scr}
   - L
-  - SEMI
+  - MINUS
   - ENTER
   - LSHFT
   - Z
