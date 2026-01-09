@@ -9,10 +9,10 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Fnc}
   - O
   - P
-  - SEMI
+  - DELETE
   - TAB
   - A
   - S
@@ -21,10 +21,10 @@ layers:
   - G
   - H
   - J
-  - {t: K, h: Fnc}
+  - K
   - L
   - MINUS
-  - ENTER
+  - SEMICOLON
   - LSHFT
   - Z
   - X
@@ -42,16 +42,16 @@ layers:
   - LALT
   - {t: SPACE, h: Num}
   - {t: INT5, h: Fnc}
-  - {t: INT4, h: Fnc}
   - BACKSPACE
+  - ENTER
   - LEFT
   - DOWN
   - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  - Alt+LEFT
+  - Ctl+F4
+  - Alt+F4
+  - F5
+  - Alt+RIGHT
   - HOME
   - PG UP
   - ENTER
@@ -60,17 +60,17 @@ layers:
   - A
   - B
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - {t: '8', type: held}
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - '&tog_ls'
   - LEFT
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - F6
   - F7
-  - {t: F8, type: held}
+  - F8
   - F9
   - F10
   - {t: ▽, type: trans}
