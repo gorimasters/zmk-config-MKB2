@@ -57,12 +57,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp CAPS         &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
-&mt LSHFT SPACE  &kp BACKSPACE  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
-&trans           &kp ENTER      &kp ENTER            &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                           &kp A                                                     &kp B
+&trans    &trans  &trans          &kp UP_ARROW    &trans           &trans      &kp KP_NUMLOCK  &kp BACKSPACE    &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans          &kp KP_SLASH     &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&trans    &kp F2  &kp F4          &kp F6          &kp F8           &trans      &trans          &kp KP_ASTERISK  &kp KP_PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans    &trans  &trans                          &trans           &trans      &trans          &trans                         &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER
+&kp LEFT  &kp UP  &kp SPACE       &kp DOWN        &kp RIGHT                                    &kp HOME         &kp PG_UP     &kp ENTER        &kp PG_DN        &kp END
+                                  &kp A                                                                         &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
