@@ -67,11 +67,11 @@
         function_layer {
             label = "Fnc";
             bindings = <
-&trans    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5          &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
-&trans    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)      &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp APOSTROPHE
-&trans    &kp F2            &kp F4            &kp F6            &kp F8            &trans                &kp LEFT_BRACE    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH     &trans            &kp LS(INTERNATIONAL_1)
-&trans    &trans            &trans                              &trans            &trans                &trans            &trans                              &trans            &trans            &trans
-&kp LEFT  &kp UP            &trans            &kp DOWN          &kp RIGHT                                                 &kp HOME          &kp PG_UP         &kp ENTER         &kp PG_DN         &kp END
+&trans    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5          &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0       &trans
+&trans    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)      &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)   &kp APOSTROPHE
+&trans    &kp F2            &kp F4            &kp F6            &kp F8            &trans                &kp RIGHT_BRACE   &kp AT_SIGN       &kp LEFT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACKET  &kp LS(INTERNATIONAL_1)
+&trans    &trans            &trans                              &trans            &trans                &trans            &trans                              &trans            &trans             &trans
+&kp LEFT  &kp UP            &trans            &kp DOWN          &kp RIGHT                                                 &kp HOME          &kp PG_UP         &kp ENTER         &kp PG_DN          &kp END
                                               &kp A                                                                                         &kp B
             >;
 
