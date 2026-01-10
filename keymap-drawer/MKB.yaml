@@ -90,7 +90,7 @@ layers:
   - F6
   - F8
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT BRACE
   - LEFT BRACE
   - RIGHT BRACE
   - BACKSLASH
