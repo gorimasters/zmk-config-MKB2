@@ -71,7 +71,7 @@ layers:
   - {t: '8', type: held}
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - Sft+1
   - Sft+2
