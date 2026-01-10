@@ -83,7 +83,7 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
-  - {t: ▽, type: trans}
+  - APOSTROPHE
   - {t: ▽, type: trans}
   - F2
   - F4
@@ -91,7 +91,7 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT BRACE
   - RIGHT BRACE
   - BACKSLASH
   - A
