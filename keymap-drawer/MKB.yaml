@@ -90,11 +90,11 @@ layers:
   - F6
   - F8
   - {t: ▽, type: trans}
-  - LEFT BRACE
-  - LEFT BRACE
   - RIGHT BRACE
+  - AT SIGN
+  - LEFT BRACKET
   - BACKSLASH
-  - {t: ▽, type: trans}
+  - RIGHT BRACKET
   - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
