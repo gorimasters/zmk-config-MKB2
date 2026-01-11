@@ -31,11 +31,6 @@
             key-positions = <41 40>;
         };
 
-        ctshift {
-            bindings = <&mkp MB1>;
-            key-positions = <24 36>;
-        };
-
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <32 33>;
