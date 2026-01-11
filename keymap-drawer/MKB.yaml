@@ -357,7 +357,5 @@ layers:
 combos:
 - p: [41, 40]
   k: INTERNATIONAL 4
-- p: [24, 36]
-  k: '&mkp MB1'
 - p: [32, 33]
   k: '&mkp MB3'
