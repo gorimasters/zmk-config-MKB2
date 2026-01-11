@@ -13,6 +13,10 @@
 #define SCROLL 4
 #define BT 5
 
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 3 250>;
+};
+
 &mt {
     flavor = "balanced";
     tapping-term-ms = <280>;
