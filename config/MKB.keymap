@@ -13,9 +13,7 @@
 #define SCROLL 4
 #define BT 5
 
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 3 250>;
-};
+&mkp_input_listener { input-processors = <&zip_temp_layer 3 250>; };
 
 &mt {
     flavor = "balanced";
@@ -33,14 +31,9 @@
             key-positions = <41 40>;
         };
 
-        mb1 {
+        ctshift {
             bindings = <&mkp MB1>;
-            key-positions = <19 20>;
-        };
-
-        mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <20 21>;
+            key-positions = <24 36>;
         };
 
         mb3 {
