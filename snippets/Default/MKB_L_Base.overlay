@@ -1,5 +1,7 @@
 &zip_temp_layer {
     excluded-positions = <
+        24 // shift
+        36 // ctrl
         32 // ,
         33 // .
     >;
@@ -76,6 +78,7 @@
     };
 
 };
+
 
 
 
