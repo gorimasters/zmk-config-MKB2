@@ -44,7 +44,7 @@
             label = "Def";
             bindings = <
 &lt 5 ESC     &kp Q       &kp W       &kp E   &kp R          &kp T           &kp Y          &kp U      &lt 1 I    &kp O      &kp P      &kp DELETE
-&kp TAB       &kp A       &kp S       &kp D   &kp F          &kp G           &kp H          &kp J      &lt 4 K    &kp L      &kp MINUS  &kp SEMICOLON
+&kp TAB       &kp A       &kp S       &kp D   &kp F          &kp G           &kp H          &kp J      &kp K      &kp L      &kp MINUS  &kp SEMICOLON
 &kp LSHFT     &kp Z       &kp X       &kp C   &kp V          &kp B           &kp N          &kp M      &kp COMMA  &kp DOT    &kp UP     &kp FSLH
 &kp LCTRL     &kp LGUI    &kp LALT            &lt NUM SPACE  &lt 1 INT5      &kp BACKSPACE  &kp ENTER             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LA(LEFT)  &kp LC(F4)  &kp LA(F4)  &kp F5  &kp LA(RIGHT)                                 &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
@@ -88,7 +88,7 @@
             label = "Mouse";
             bindings = <
 &trans  &trans       &trans  &trans  &trans  &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans  &trans       &trans  &trans  &trans  &trans      &trans  &trans    &trans     &trans     &trans     &trans
+&trans  &trans       &trans  &trans  &trans  &trans      &trans  &trans    &trans     &trans     &trans     &lt 4 SEMICOLON
 &trans  &trans       &trans  &trans  &trans  &trans      &trans  &trans    &mkp MB1   &mkp MB2   &trans     &trans
 &trans  &trans       &trans          &trans  &trans      &trans  &trans               &trans     &trans     &trans
 &trans  &key_repeat  &trans  &trans  &trans                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
@@ -105,7 +105,7 @@
             bindings = <
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &mkp MB1   &mkp MB2   &trans     &trans
 &trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
 &kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                              &kp A                                              &kp B
