@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - J
-  - K
+  - {t: K, h: Scr}
   - L
   - MINUS
   - SEMICOLON
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
