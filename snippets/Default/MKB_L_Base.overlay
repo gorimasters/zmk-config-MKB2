@@ -5,9 +5,6 @@
         32 // ,
         33 // .
     >;
-};
-
-&zip_temp_layer {
     require-prior-idle-ms = <200>;
 };
 
@@ -16,11 +13,16 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>, <&zip_temp_layer 3 100000>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 3 5>, <&zip_temp_layer 3 100000>;
 
         scroll {
             layers = <1>;
             input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>, <&zip_xy_scaler 1 16>, <&zip_xy_to_scroll_mapper>;
+        };
+
+        low_dpi {
+            layers = <4>;
+            input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 5>;
         };
 
         arrow {
@@ -34,15 +36,6 @@
             input-processors = <&zip_xy_scaler 0 1>;
         };
 
-        low_dpi {
-            layers = <4>;
-            input-processors = <&zip_xy_scaler 1 1>;
-        };
-
-        default {
-            layers = <0>;
-            input-processors = <&zip_xy_scaler 3 5>;
-        };
     };
 
     magnet_listener: magnet_listener {
@@ -88,6 +81,7 @@
     };
 
 };
+
 
 
 
