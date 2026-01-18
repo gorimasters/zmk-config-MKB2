@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - MINUS
-  - SEMICOLON
+  - BACKSPACE
   - LSHFT
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - LALT
   - {t: SPACE, h: Num}
   - {t: INT5, h: Fnc}
-  - BACKSPACE
+  - INTERNATIONAL 4
   - ENTER
   - LEFT
   - DOWN
@@ -90,8 +90,8 @@ layers:
   - F6
   - F8
   - {t: ▽, type: trans}
-  - RIGHT BRACE
-  - AT SIGN
+  - APOSTROPHE
+  - SEMICOLON
   - LEFT BRACKET
   - BACKSLASH
   - RIGHT BRACKET
