@@ -43,12 +43,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&lt 5 ESC     &kp Q       &kp W       &kp E   &kp R          &kp T           &kp Y          &kp U      &lt 1 I    &kp O      &kp P      &kp DELETE
-&kp TAB       &kp A       &kp S       &kp D   &kp F          &kp G           &kp H          &kp J      &kp K      &kp L      &kp MINUS  &kp SEMICOLON
-&kp LSHFT     &kp Z       &kp X       &kp C   &kp V          &kp B           &kp N          &kp M      &kp COMMA  &kp DOT    &kp UP     &kp FSLH
-&kp LCTRL     &kp LGUI    &kp LALT            &lt NUM SPACE  &lt 1 INT5      &kp BACKSPACE  &kp ENTER             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LA(LEFT)  &kp LC(F4)  &kp LA(F4)  &kp F5  &kp LA(RIGHT)                                 &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                      &kp A                                                            &kp B
+&lt 5 ESC     &kp Q       &kp W       &kp E   &kp R          &kp T           &kp Y                &kp U      &lt 1 I    &kp O      &kp P      &kp DELETE
+&kp TAB       &kp A       &kp S       &kp D   &kp F          &kp G           &kp H                &kp J      &kp K      &kp L      &kp MINUS  &kp BACKSPACE
+&kp LSHFT     &kp Z       &kp X       &kp C   &kp V          &kp B           &kp N                &kp M      &kp COMMA  &kp DOT    &kp UP     &kp FSLH
+&kp LCTRL     &kp LGUI    &kp LALT            &lt NUM SPACE  &lt 1 INT5      &kp INTERNATIONAL_4  &kp ENTER             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LA(LEFT)  &kp LC(F4)  &kp LA(F4)  &kp F5  &kp LA(RIGHT)                                       &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                      &kp A                                                                  &kp B
             >;
 
             sensor-bindings =
@@ -61,7 +61,7 @@
             bindings = <
 &trans    &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5          &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0       &trans
 &trans    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)      &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)   &kp APOSTROPHE
-&trans    &kp F2            &kp F4            &kp F6            &kp F8            &trans                &kp RIGHT_BRACE   &kp AT_SIGN       &kp LEFT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACKET  &kp LS(INTERNATIONAL_1)
+&trans    &kp F2            &kp F4            &kp F6            &kp F8            &trans                &kp APOSTROPHE    &kp SEMICOLON     &kp LEFT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACKET  &kp LS(INTERNATIONAL_1)
 &trans    &trans            &trans                              &trans            &trans                &trans            &trans                              &trans            &trans             &trans
 &kp LEFT  &kp UP            &trans            &kp DOWN          &kp RIGHT                                                 &kp HOME          &kp PG_UP         &kp ENTER         &kp PG_DN          &kp END
                                               &kp A                                                                                         &kp B
